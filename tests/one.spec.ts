@@ -5,6 +5,7 @@ test('jenkins practise', async ({ page }) => {
 
   await page.locator('input[placeholder="Enter Name"]').fill('John Doe');
   await page.waitForTimeout(2000);
+  
 
 
 });
